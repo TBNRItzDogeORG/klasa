@@ -1,8 +1,6 @@
-const {
-  GatewayStorage,
-  Settings,
-  util: { getIdentifier },
-} = require("klasa");
+const GatewayStorage = require("./GatewayStorage");
+const Settings = require("./Settings");
+const getIdentifier = require("../util/util");
 const { Collection } = require("discord.js");
 
 /**
