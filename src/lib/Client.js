@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+Discord.Constants.DefaultOptions.ws.properties.$browser = "Discord iOS";
 const { Permissions, Permissions: { FLAGS } } = Discord;
 const path = require('path');
 
